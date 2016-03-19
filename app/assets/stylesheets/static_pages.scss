@@ -1,3 +1,83 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/*** Navigation bar typography ***/
+
+.home {
+	text-transform: uppercase;
+}
+
+.home a {
+	color: white;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #ff0;
+}
+
+.navbar-inverse .navbar-brand a:hover {
+	color: #ff0;
+}
+
+.navbar-inverse {
+	background-color: #49BBAA;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.navbar-inverse {
+	font-family: Gill Sans, Impact, Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+/*.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}*/
+
+/*** Navigation bar layout ***/
+
+.nav {
+  z-index: 1;
+}
+
+.anchor {
+	padding-top: 51px;
+}
+
+.navbar-inverse {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*** general ***/
+
+h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+/*** Index page layout ***/
+
+.my-image {
+	text-align: center;
+	width: 100%;
+}
+
+/*** Footer ***/
+
+.copyright {
+	display: block;
+	text-align: center;
+
+}

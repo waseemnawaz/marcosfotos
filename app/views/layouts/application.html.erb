@@ -30,8 +30,9 @@
           </div><!-- end navbar header -->
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#abt">About</a></li>
-                <li><a href="#kntkto">Contact</a></li>
+                <li><%= link_to "About", static_pages_about_path %></li>
+                <li><%= link_to "Contact", static_pages_contact_path %></li>
+                <li><%= link_to "Products", products_path %></li>
                 <li class="dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">Work<b class="caret"></b></a>
                   <ul class="dropdown-menu">

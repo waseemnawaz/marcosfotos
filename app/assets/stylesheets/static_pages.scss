@@ -67,6 +67,9 @@ p {
 	font-size: 1.2em;
 }
 
+#notice {
+	margin-top: 30px;
+}
 /*** Index page layout ***/
 
 .my-image {
@@ -124,3 +127,10 @@ label.form-control {
 	/*-webkit-border-radius: 5px; */
 	border: 2px solid grey;
 }
+
+/*** Contact page ***/
+
+.kontact {
+	margin-left: auto;
+}
+

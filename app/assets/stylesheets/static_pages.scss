@@ -94,3 +94,33 @@ p {
 	height: 100%;
 	max-width: auto;
 }
+
+/*** Form_tag ***/
+
+label.form-control {
+	/*margin-top: 5px;*/
+}
+
+/***form_for ***/
+
+#formfor {
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    max-width: 300px;
+    position: relative;
+}
+
+.field, .actions {
+	font-family: "Trebuchet MS";
+
+}
+
+#formfor .form-control {
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	/*-webkit-border-radius: 5px; */
+	border: 2px solid grey;
+}

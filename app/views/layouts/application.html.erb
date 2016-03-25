@@ -41,6 +41,15 @@
                   </ul>
                 </li>
                 <li><a href="#faque">FAQ</a></li>
+                <li>
+                  <%= form_tag("/products", class: "navbar-form navbar-left", method: "get") do %>
+                    <div class="form-group">
+                      <%= label_tag(:q, "Search for:", class: "form-control") %>
+                      <%= text_field_tag(:q, nil, class: "form-control") %></div>
+                      <%= submit_tag("Search", class: "btn btn-default") %>
+                    </div>
+                  <% end %>
+                </li>
               </ul>
             </div><!-- collapse -->
         </div><!-- end container -->
